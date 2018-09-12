@@ -42,7 +42,7 @@ public class main {
 
                 String name1 = "bob"; // these are varible
                 String name2 = "Alice";
-                while(name1){          // this is for a loop
+                while(name1.equalsIgnoreCase()){         // this is for a loop
                     System.out.println("wrong name please provide me with your name");
                     if(name1.equalsIgnoreCase("bob")) {   // it's a true or false
 
